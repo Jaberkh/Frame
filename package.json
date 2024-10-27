@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "frog dev",
-    "start": "node --loader tsx src/index.tsx",
+    "start": "tsx src/index.tsx",
     "build": "echo 'No build step needed for this project'"
   },
   "dependencies": {
