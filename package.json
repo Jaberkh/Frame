@@ -5,21 +5,21 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "frog dev",         // اجرای محیط توسعه با frog
-    "start": "tsx src/index.tsx", // اجرای پروژه به‌عنوان سرور
-    "build": "echo 'No build step needed for this project'" // اسکریپت ساده برای Netlify
+    "dev": "frog dev",        
+    "start": "tsx src/index.tsx", 
+    "build": "echo 'No build step needed for this project'" 
   },
   "dependencies": {
-    "@hono/node-server": "^1.0.0", // سرور Hono
-    "hono": "^4.0.0",              // فریم‌ورک Hono
-    "frog": "latest"               // فریم‌ورک Frog
+    "@hono/node-server": "^1.0.0", 
+    "hono": "^4.0.0",              
+    "frog": "latest"               
   },
   "devDependencies": {
-    "@types/node": "^20.11.17",    // تایپ‌های Node.js
-    "tsx": "^3.12.2"               // TSX برای اجرای TypeScript
+    "@types/node": "^20.11.17",   
+    "tsx": "^3.12.2"              
   },
   "engines": {
-    "node": ">=16.0.0"             // نسخه مورد نیاز Node.js
+    "node": ">=16.0.0"             
   },
   "keywords": [
     "farcaster",
