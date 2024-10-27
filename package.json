@@ -1,18 +1,33 @@
 {
   "name": "test",
+  "version": "1.0.0",
+  "description": "A Farcaster frame project using Frog and Hono",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "frog dev",
-    "serve": "tsx src/index.tsx"
+    "dev": "frog dev",         // اجرای محیط توسعه با frog
+    "start": "tsx src/index.tsx", // اجرای پروژه به‌عنوان سرور
+    "build": "echo 'No build step needed for this project'" // اسکریپت ساده برای Netlify
   },
   "dependencies": {
-    "@hono/node-server": "^1",
-    "hono": "^4",
-    "frog": "latest"
+    "@hono/node-server": "^1.0.0", // سرور Hono
+    "hono": "^4.0.0",              // فریم‌ورک Hono
+    "frog": "latest"               // فریم‌ورک Frog
   },
   "devDependencies": {
-    "@types/node": "^20.11.17",
-    "tsx": "^3.12.2"
-  }
+    "@types/node": "^20.11.17",    // تایپ‌های Node.js
+    "tsx": "^3.12.2"               // TSX برای اجرای TypeScript
+  },
+  "engines": {
+    "node": ">=16.0.0"             // نسخه مورد نیاز Node.js
+  },
+  "keywords": [
+    "farcaster",
+    "frame",
+    "frog",
+    "hono",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
 }
